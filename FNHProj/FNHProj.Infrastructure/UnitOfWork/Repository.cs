@@ -1,4 +1,5 @@
-﻿using FNHProj.Infrastructure.Contracts;
+﻿using FFNHProj.Domain;
+using FNHProj.Infrastructure.Contracts;
 using NHibernate;
 using NHibernate.Linq;
 

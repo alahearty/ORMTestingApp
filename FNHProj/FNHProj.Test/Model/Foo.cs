@@ -1,6 +1,7 @@
-﻿using BrewingCoder.NetCore.NHibernateUowRepo;
+﻿using FFNHProj.Domain;
+using FNHProj.Infrastructure.UnitOfWork;
 
-namespace BrewingCoder.netCore.NHibernateUowRepo.Tests.Model
+namespace FNHProj.Test.Model
 {
     public class Foo : EntityBase
     {

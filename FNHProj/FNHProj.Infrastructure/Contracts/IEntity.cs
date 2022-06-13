@@ -1,4 +1,4 @@
-﻿namespace FNHProj.Infrastructure.Contracts
+﻿namespace FNHProj.Domain.Contracts
 {
     public interface IEntity
     {

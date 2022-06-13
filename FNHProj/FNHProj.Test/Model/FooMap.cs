@@ -1,4 +1,5 @@
 ﻿using FluentNHibernate.Mapping;
+using FNHProj.Test.Model;
 
 namespace BrewingCoder.netCore.NHibernateUowRepo.Tests.Model
 {

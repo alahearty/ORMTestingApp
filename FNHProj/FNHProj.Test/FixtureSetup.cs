@@ -1,7 +1,7 @@
 ﻿using BrewingCoder.NetCore.NHibernateUowRepo;
-using BrewingCoder.netCore.NHibernateUowRepo.Tests.Model;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
+using FNHProj.Test.Model;
 using NHibernate;
 using NHibernate.Tool.hbm2ddl;
 using NUnit.Framework;
@@ -38,7 +38,7 @@ namespace FNHProj.Test
         [OneTimeSetUp]
         public void Setup()
         {
-            Factory = NHibernateFactoryManager.Instance(Configuration);
+            Factory = NHibernateFactoryManager.SessionFactoryInstance;
         }
 
 
